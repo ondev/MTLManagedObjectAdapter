@@ -107,6 +107,9 @@ FOUNDATION_EXPORT const unsigned char MTLManagedObjectAdapterVersionString[];
 // be used.
 + (NSDictionary *)relationshipModelClassesByPropertyKey;
 
+// similar with relationshipModelClassesByPropertyKey
++ (NSDictionary *)fetchedPropertyModelClassesByPropertyKey;
+
 // Overridden to deserialize a different class instead of the receiver, based on
 // information in the provided object.
 //
